@@ -2,11 +2,9 @@
   <img src="./webport.gif" alt="Personal Webpage" />
 
   &#xa0;
-
-  <!-- <a href="https://personalwebpage.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Personal Webpage</h1>
+<h1 align="center">Operational System</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/Arthur-Matias/Arthur-Matias.github.io?color=56BEB8">
@@ -24,12 +22,6 @@
   <img alt="Github stars" src="https://img.shields.io/github/stars/Arthur-Matias/Arthur-Matias.github.io?color=56BEB8" />
 </p>
 
-<!-- Status -->
-
-<h4 align="center"> 
-	🚧  Personal Webpage 🚀 Under construction...  🚧
-</h4> 
-
 <hr>
 
 <p align="center">
@@ -44,11 +36,6 @@
 <br>
 
 ## :dart: About ##
-
-Hello, nice to meet you!
-
-I'm Arthur,
-welcome to my personal webpage github, hope you like!
 
 If you want to check the deployed/live version, please, check here [link](https://arthur-matias.github.io/)
 
@@ -70,10 +57,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), a
 
 ```bash
 # Clone this project
-$ git clone https://github.com/Arthur-Matias/Arthur-Matias.github.io
+$ git clone https://github.com/Arthur-Matias/operational_system
 
 # Access
-$ cd Arthur-Matias.github.io
+$ cd operational_system
 
 # Install dependencies
 $ yarn / npm install
