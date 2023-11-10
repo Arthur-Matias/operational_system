@@ -18,6 +18,15 @@
     import GitHub from "./Icons/GitHub.svelte";
     import Behance from "./Icons/Behance.svelte";
     import LinkedIn from "./Icons/LinkedIn.svelte";
+    import webBrowser from "/icons/internet-web-browser.png";
+    import calculator from "/icons/accessories-calculator.png";
+    import phone from "/icons/phone.png";
+    import userInfo from "/icons/user-info.png";
+    import webMail from "/icons/internet-mail.png";
+    import preferences from "/icons/preferences-system.png";
+    import asteroid from "/icons/asteroid.png";
+    import flappy from "/icons/flappy-bird.png";
+
 
     let mouseOver = false;
     export let changeColorOnHover = false;
@@ -44,23 +53,23 @@
     {#if iconName === eIcons.logo}
         <Logo fill={iconColor} />
     {:else if iconName === eIcons.browserColored}
-        <img src="/icons/internet-web-browser.png" alt="browser" />
+        <img src={webBrowser} alt="browser" />
     {:else if iconName === eIcons.calc}
-        <img src="/icons/accessories-calculator.png" alt="info" />
+        <img src={calculator} alt="info" />
     {:else if iconName === eIcons.phone}
-        <img src="/icons/phone.png" alt="info" />
+        <img src={phone} alt="info" />
     {:else if iconName === eIcons.browser}
         <BrowserIcon iconColor={changeColorOnHover?mouseOver?accentColor:iconColor:iconColor} />
     {:else if iconName === eIcons.info}
-        <img src="/icons/user-info.png" alt="info" />
+        <img src={userInfo} alt="info" />
     {:else if iconName === eIcons.mailColored}
-        <img src="/icons/internet-mail.png" alt="mail" />
+        <img src={webMail} alt="mail" />
     {:else if iconName === eIcons.config}
-        <img src="/icons/preferences-system.png" alt="config" />
+        <img src={preferences} alt="config" />
     {:else if iconName === eIcons.asteroid}
-        <img src="/icons/asteroid.png" alt="config" />
+        <img src={asteroid} alt="config" />
     {:else if iconName === eIcons.flappyBird}
-        <img src="/icons/flappy-bird.png" alt="config" />
+        <img src={flappy} alt="config" />
     {:else if iconName === eIcons.user}
         <User iconColor={changeColorOnHover?mouseOver?accentColor:iconColor:iconColor} />
     {:else if iconName === eIcons.mailList}
